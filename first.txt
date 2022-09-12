@@ -2,3 +2,16 @@ gitの練習をします。
 基本的なワークフローを学びます。
 .git add
 .git commit
+-----
+git init git初期化（gitで管理開始）
+ls -a でgitがあるか確認
+git　statusで変更されていないこと確認
+該当ファイルの編集
+git　statusでaddされていないことを確認 modified（変更された）が赤色
+git add でステージング
+git　statusでaddされたことを確認 modified（変更された）が緑色
+git commit -v　-vをつけることで何が変更されたかがわかる
+vimが出てくるので i押下コメントいれて esc　:wq　エンター
+ここまででローカルレポジトリに追加される
+git push -u origin master リモートレポジトリに登録
+githubで見てみると更新されてるー
